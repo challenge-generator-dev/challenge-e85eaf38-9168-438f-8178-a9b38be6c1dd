@@ -1,0 +1,8 @@
+<!--
+  ERROR DE ECOSISTEMA: Terraform usa un stack basado en HCL y AWS Provider, no Java/Maven.
+  El manifiesto de dependencias en Terraform se gestiona mediante `terraform init`
+  usando los archivos `.tf` existentes (providers.tf, versions.tf).
+  
+  Este proyecto NO requiere pom.xml porque NO es un proyecto Java.
+  El comando de verificación para Terraform es `terraform init && terraform validate`.
+-->
